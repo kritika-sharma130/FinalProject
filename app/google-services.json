@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1002005004168",
+    "project_id": "emailotpapp",
+    "storage_bucket": "emailotpapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002005004168:android:72ab783cff2cc07952043d",
+        "android_client_info": {
+          "package_name": "com.example.emailotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002005004168-j209sao9304qi934i5qu2qtrkq2n342h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emailotp",
+            "certificate_hash": "31ab4055c90df83c0d295c20138b9e1c24efff67"
+          }
+        },
+        {
+          "client_id": "1002005004168-v6fh3at173sik202tqlkvm2qi5jc87sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgPuCGcBq-G5INVlwu7GBgDioZJOOGrSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002005004168-v6fh3at173sik202tqlkvm2qi5jc87sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
