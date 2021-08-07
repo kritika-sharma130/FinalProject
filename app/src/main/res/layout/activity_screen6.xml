@@ -4,17 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#70FDED5D"
     tools:context=".Screen6">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="219dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextTextPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="304dp"
+        android:ems="10"
+        android:hint="Enter phone number"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginBottom="269dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="321dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginRight="159dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="654dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:textColor="@color/black"
         android:text="Logout" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginBottom="162dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Click here for next!"
+        android:textColor="@color/black" />
 </RelativeLayout>

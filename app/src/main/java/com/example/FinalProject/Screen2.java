@@ -1,4 +1,4 @@
-package com.example.emailotp;
+package com.example.FinalProject;
 
 import android.content.Intent;
 import android.os.Bundle;

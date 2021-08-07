@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#97D0FD"
     tools:context=".Screen2">
 
     <EditText
@@ -15,7 +16,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="29dp"
         android:layout_marginLeft="29dp"
+        android:backgroundTint="@color/white"
         android:layout_marginTop="45dp"
+        android:textColorHint="@color/black"
         android:ems="10"
         android:hint="enter email"
         android:inputType="textEmailAddress" />
@@ -26,10 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/white"
         android:layout_alignParentTop="true"
         android:layout_marginStart="21dp"
         android:layout_marginLeft="21dp"
         android:layout_marginTop="142dp"
+        android:textColorHint="@color/black"
         android:ems="10"
         android:hint="Enter password"
         android:inputType="numberPassword" />
@@ -44,15 +49,20 @@
         android:layout_marginStart="149dp"
         android:layout_marginLeft="149dp"
         android:layout_marginTop="275dp"
+        android:backgroundTint="@color/white"
         android:text="Login" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginBottom="313dp"
+        android:backgroundTint="@color/white"
         android:text="Signup" />
 
     <ProgressBar
@@ -65,6 +75,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="159dp"
         android:layout_marginLeft="159dp"
-        android:visibility="invisible"
-        android:layout_marginTop="203dp" />
+        android:layout_marginTop="203dp"
+        android:visibility="invisible" />
 </RelativeLayout>

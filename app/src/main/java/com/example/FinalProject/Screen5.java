@@ -1,4 +1,4 @@
-package com.example.emailotp;
+package com.example.FinalProject;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

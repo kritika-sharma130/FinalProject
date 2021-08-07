@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#70FDED5D"
     tools:context=".Screen4">
 
     <com.hbb20.CountryCodePicker
@@ -21,17 +22,23 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="145dp"
-        android:layout_marginLeft="145dp"
-        android:layout_marginTop="333dp"
-        android:text="Submit" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="329dp"
+        android:backgroundTint="@color/white"
+        android:text="Submit"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/editTextPhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_marginTop="240dp"
         android:ems="10"
         android:hint="Enter phone number"

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.emailotp">
+    package="com.example.FinalProject">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -9,12 +16,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmailOtp">
-        <activity android:name=".Screen6"></activity>
-        <activity android:name=".Screen5" />
-        <activity android:name=".Screen4" />
-        <activity android:name=".Screen3" />
-        <activity android:name=".Screen2" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.FinalProject.Entrance"></activity>
+        <activity android:name="com.example.FinalProject.QuizResultActivity" />
+        <activity android:name="com.example.FinalProject.MySqualite3" />
+        <activity android:name="com.example.FinalProject.MySqualite2" />
+        <activity android:name="com.example.FinalProject.BrowsingApplication" />
+        <activity android:name="com.example.FinalProject.Light" />
+        <activity android:name="com.example.FinalProject.CaptureVideo" />
+        <activity android:name="com.example.FinalProject.MySqualite" />
+        <activity android:name="com.example.FinalProject.VidPlay" />
+        <activity android:name="com.example.FinalProject.Page2" />
+        <activity android:name="com.example.FinalProject.Song" />
+        <activity android:name="com.example.FinalProject.BluetoothApp" />
+        <activity android:name="com.example.FinalProject.Quiz" />
+        <activity android:name="com.example.FinalProject.VibratorApp" />
+        <activity android:name="com.example.FinalProject.Calling" />
+        <activity android:name="com.example.FinalProject.Sms" />
+        <activity android:name="com.example.FinalProject.Camera" />
+        <activity android:name="com.example.FinalProject.Calculator" />
+        <activity android:name="com.example.FinalProject.Details" />
+        <activity android:name="com.example.FinalProject.Menu" />
+        <activity android:name="com.example.FinalProject.Screen6" />
+        <activity android:name="com.example.FinalProject.Screen5" />
+        <activity android:name="com.example.FinalProject.Screen4" />
+        <activity android:name="com.example.FinalProject.Screen3" />
+        <activity android:name="com.example.FinalProject.Screen2" />
+        <activity android:name="com.example.FinalProject.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
