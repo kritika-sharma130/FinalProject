@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimagemenu"
+    tools:context=".Menu">
+
+
+    <TextView
+        android:id="@+id/textViewbackgroundmenu"
+        android:layout_width="417dp"
+        android:layout_height="729dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginRight="-6dp"
+        android:layout_marginBottom="-7dp"></TextView>
+
+    <Button
+        android:id="@+id/buttonCalculator"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="86dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Calculator"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttonsms"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="257dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Sms App"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttoncalling"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="249dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Calling App"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttoncamera"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Camera"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttonbluetoothone"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Bluetooth"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttonvibrator"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="248dp"
+        android:background="@color/white"
+        android:padding="4dp"
+        android:text="Vibrator"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttonquiz"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="81dp"
+        android:background="@color/white"
+        android:text="Quiz App"
+        android:textColor="#3A3B40"
+        android:textColorHint="#74F1DFE5" />
+
+    <Button
+        android:id="@+id/buttonmusic"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/white"
+        android:text="Music" />
+
+    <Button
+        android:id="@+id/button6next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="340dp"
+        android:background="#FFEB3B"
+        android:text="Next" />
+</RelativeLayout>
